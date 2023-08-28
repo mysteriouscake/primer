@@ -6,7 +6,10 @@ int main(){
     std::cin<<input;
     int output = [input];
     for(int i = 0; i<=input; i++){
-        
+        do{
+            
+        }while(input%i == 0);
+        output[i] = input;
     }
     return 0;
 }
