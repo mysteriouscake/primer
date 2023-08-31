@@ -6,8 +6,9 @@ int main(){
     std::cin<<input;
     int output = [input];
     for(int i = 0; i<=input; i++){
-        if(i)
-        output[i] = i;
+        for(int ii = 1; ii<input; ii++){
+            output[ii] = input%i
+        }
     }
     return 0;
 }
