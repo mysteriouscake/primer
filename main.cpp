@@ -10,5 +10,8 @@ int main(){
             output[ii] = input%i
         }
     }
+    for(int i = 0; i<=input; i++){
+        std::cout<<output[i]<<'\n';
+    }
     return 0;
 }
