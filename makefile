@@ -6,6 +6,3 @@ main.o: main.cpp
 
 clean:
 	rm *.o primer
-
-run:
-	./primer
