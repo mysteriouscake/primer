@@ -1,8 +1,8 @@
 pythagora5: main.o
-	g++ -g -Wall -std=c++20 main.o -o primer
+	g++ -g -Wall -O3 main.o -o primer
 
 main.o: main.cpp
-	g++ -g -Wall -std=c++20 -c main.cpp
+	g++ -g -Wall -O3 -c main.cpp
 
 clean:
 	rm *.o primer
