@@ -1,11 +1,8 @@
 pythagora5: main.o
-	g++ -g -Wall main.o -o primer -O3
+	g++ -g -Wall -O3 main.o -o primer
 
 main.o: main.cpp
-	g++ -g -Wall -c main.cpp -O3
+	g++ -g -Wall -O3 -c main.cpp
 
 clean:
 	rm *.o primer
-
-run:
-	./primer
