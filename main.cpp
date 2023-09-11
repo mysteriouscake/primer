@@ -9,13 +9,13 @@ int main(){
     //for(int i = 0; i<=input; i++){
         for(int ii = 0; ii<input; ii++){
             double*results;
-            results = new double [input/2];
+            results = new double [input];
             bool*check;
-            check = new bool [input/2];
-            for(int j = 0; j<=input/2; j++){
+            check = new bool [input];
+            for(int j = 0; j<=input; j++){
                 results[j] = input%j;
             }
-            for(int jj = 1; jj<=(input/2); jj++){
+            for(int jj = 1; jj<=(input); jj++){
                 if(results[jj] == 0){
                     check[jj] = false;
                     output[jj] = check[jj];
