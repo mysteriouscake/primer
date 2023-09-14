@@ -7,6 +7,7 @@ int main(){
     std::cin>>input;
     bool output[input];
     //for(int i = 0; i<=input; i++){
+        //man this broken as hell
         for(int ii = 0; ii<input; ii++){
             double*results;
             results = new double [input];
